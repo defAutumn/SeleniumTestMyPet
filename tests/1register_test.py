@@ -3,6 +3,7 @@ from pages.register_page import RegisterPage
 
 
 
+
 class TestRegisterPage:
 
     def test_register(self, driver):

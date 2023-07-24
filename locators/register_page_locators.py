@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 
 class RegisterPageLocators:
+    LOGOUT = (By.ID, 'logout')
     USERNAME = (By.ID, 'id_username')
     EMAIL = (By.NAME, 'email')
     PASSWORD = (By.NAME, 'password1')

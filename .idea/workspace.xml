@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10b59ce-ee18-4430-ab52-450b951d30c7" name="Changes" comment="" />
+    <list default="true" id="e10b59ce-ee18-4430-ab52-450b951d30c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/input_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locators/authorization_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/authorization_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/2authorization_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/register_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/register_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/register_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/1register_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +27,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2SybWKUcfxCCqDOKuRGSNiP0Epx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/SeleniumTestMyPet"
   }
 }]]></component>
@@ -36,11 +54,53 @@
       <recent name="D:\SeleniumTestMyPet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SeleniumTestMyPet\tests" />
       <recent name="D:\SeleniumTestMyPet" />
+      <recent name="D:\SeleniumTestMyPet\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for register_test.TestRegisterPage.test_register">
+  <component name="RunManager" selected="Python tests.Python tests for 2authorization_test.TestAuthorizationPage.test_authorization">
+    <configuration name="Python tests for 1register_test.TestRegisterPage.test_register" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestMyPet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;1register_test.TestRegisterPage.test_register&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for 2authorization_test.TestAuthorizationPage.test_authorization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestMyPet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;2authorization_test.TestAuthorizationPage.test_authorization&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for authorization_test.TestAuthorizationPage.test_authorization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestMyPet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;authorization_test.TestAuthorizationPage.test_authorization&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for register_test.TestRegisterPage.test_register" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestMyPet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,7 +115,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.register_test.TestFormPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.register_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestMyPet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +125,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.register_test.TestFormPage&quot;" />
+      <option name="_new_target" value="&quot;tests.register_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.register_test.TestFormPage.test_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.register_test.TestRegisterPage.test_register" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestMyPet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,15 +139,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.register_test.TestFormPage.test_form&quot;" />
+      <option name="_new_target" value="&quot;tests.register_test.TestRegisterPage.test_register&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for 2authorization_test.TestAuthorizationPage.test_authorization" />
+        <item itemvalue="Python tests.Python tests for 1register_test.TestRegisterPage.test_register" />
         <item itemvalue="Python tests.Python tests for register_test.TestRegisterPage.test_register" />
-        <item itemvalue="Python tests.Python tests for tests.register_test.TestFormPage.test_form" />
-        <item itemvalue="Python tests.Python tests for tests.register_test.TestFormPage" />
+        <item itemvalue="Python tests.Python tests for authorization_test.TestAuthorizationPage.test_authorization" />
+        <item itemvalue="Python tests.Python tests for tests.register_test.TestRegisterPage.test_register" />
       </list>
     </recent_temporary>
   </component>
