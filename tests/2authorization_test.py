@@ -9,4 +9,3 @@ class TestAuthorizationPage:
         user = authorization_page.fill_fields_and_submit()
         result = authorization_page.authorization_result()
         assert user == result
-

@@ -12,8 +12,8 @@ class TestCreatePage:
         create_page.auth()
 
         img = os.getcwd() + '/input_data/img/test_img.png'
-        path = img.replace('\\', '/')
+        img = img.replace('\\', '/')
 
-        result_1 = create_page.fill_fields_and_submit(path)
+        result_1 = create_page.fill_fields_and_submit(img)
         result_2 = create_page.create_result()
-        assert result_1==result_2
+        assert result_1 == result_2

@@ -2,17 +2,15 @@ from pages.base_page import BasePage
 from locators.register_page_locators import RegisterPageLocators as Locators
 from selenium.webdriver.common.keys import Keys
 from input_data.input_data import Data
-import time
 
 
 class RegisterPage(BasePage):
 
     def fill_fields_and_submit(self):
+
         username = Data.username
         email = Data.email
         password = Data.password
-
-
 
         self.driver.find_element(*Locators.SUBMIT).send_keys(Keys.END)
         self.driver.find_element(*Locators.USERNAME).send_keys(username)
@@ -21,12 +19,9 @@ class RegisterPage(BasePage):
         self.driver.find_element(*Locators.PASSWORD_CONFIRM).send_keys(password)
         self.driver.find_element(*Locators.SUBMIT).click()
 
-
-
         return username
 
     def register_result(self):
         result = self.element_is_visible(Locators.RESULT)
-
 
         return result.text

@@ -1,7 +1,6 @@
 class Data:
-    username = 'selenium_test6'
+    username = 'selenium_test10'
     email = 'seleniumtest@gmail.com'
     password = 'OKetonetest2023'
-    title = 'title by '+ username
-    describe = 'describe by '+ username
-
+    title = 'title by ' + username
+    describe = 'describe by ' + username

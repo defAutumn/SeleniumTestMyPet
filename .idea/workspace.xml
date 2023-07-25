@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10b59ce-ee18-4430-ab52-450b951d30c7" name="Changes" comment="Добавил тест на создание рецепта">
+    <list default="true" id="e10b59ce-ee18-4430-ab52-450b951d30c7" name="Changes" comment="Уменьшил время тестов в 2 раза. Заменил явное ожидание на неявное">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input_data/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_data/input_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/authorization_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authorization_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/create_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/register_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/1register_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/1register_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/2authorization_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/2authorization_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/3create_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/3create_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +36,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2SybWKUcfxCCqDOKuRGSNiP0Epx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,7 +48,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SeleniumTestMyPet/tests&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/SeleniumTestMyPet/tests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -183,13 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690268253274</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Уменьшил время тестов в 2 раза. Заменил явное ожидание на неявное">
+      <created>1690270248443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690270248443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил тест авторизации с явным ожиданием" />
     <MESSAGE value="Добавил картинку для теста" />
     <MESSAGE value="Добавил тест на создание рецепта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил тест на создание рецепта" />
+    <MESSAGE value="Уменьшил время тестов в 2 раза. Заменил явное ожидание на неявное" />
+    <option name="LAST_COMMIT_MESSAGE" value="Уменьшил время тестов в 2 раза. Заменил явное ожидание на неявное" />
   </component>
 </project>
