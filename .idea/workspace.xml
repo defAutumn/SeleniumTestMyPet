@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10b59ce-ee18-4430-ab52-450b951d30c7" name="Changes" comment="Добавил картинку для теста">
-      <change afterPath="$PROJECT_DIR$/input_data/input_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators/create_page_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/create_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/3create_test.py" afterDir="false" />
+    <list default="true" id="e10b59ce-ee18-4430-ab52-450b951d30c7" name="Changes" comment="Добавил тест на создание рецепта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_data/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_data/input_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/authorization_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authorization_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/create_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/register_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/2authorization_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/2authorization_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/input_data/img/test_img.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +53,10 @@
       <recent name="D:\SeleniumTestMyPet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SeleniumTestMyPet" />
       <recent name="D:\SeleniumTestMyPet\tests" />
       <recent name="D:\SeleniumTestMyPet\input_data" />
       <recent name="D:\SeleniumTestMyPet\img" />
-      <recent name="D:\SeleniumTestMyPet" />
       <recent name="D:\SeleniumTestMyPet\input_data\img" />
     </key>
   </component>
@@ -180,12 +176,20 @@
       <option name="project" value="LOCAL" />
       <updated>1690217456041</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил тест на создание рецепта">
+      <created>1690268253274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690268253274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил тест авторизации с явным ожиданием" />
     <MESSAGE value="Добавил картинку для теста" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил картинку для теста" />
+    <MESSAGE value="Добавил тест на создание рецепта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил тест на создание рецепта" />
   </component>
 </project>

@@ -11,13 +11,13 @@ class AuthorizationPage(BasePage):
         username = Data.username
         password = Data.password
 
-        time.sleep(2)
+
 
         self.driver.find_element(*Locators.USERNAME).send_keys(username)
         self.driver.find_element(*Locators.PASSWORD).send_keys(password)
         self.driver.find_element(*Locators.SUBMIT).click()
 
-        time.sleep(5)
+
 
         return username
 

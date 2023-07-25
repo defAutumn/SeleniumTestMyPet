@@ -12,7 +12,7 @@ class RegisterPage(BasePage):
         email = Data.email
         password = Data.password
 
-        time.sleep(2)
+
 
         self.driver.find_element(*Locators.SUBMIT).send_keys(Keys.END)
         self.driver.find_element(*Locators.USERNAME).send_keys(username)
@@ -21,13 +21,12 @@ class RegisterPage(BasePage):
         self.driver.find_element(*Locators.PASSWORD_CONFIRM).send_keys(password)
         self.driver.find_element(*Locators.SUBMIT).click()
 
-        time.sleep(5)
+
 
         return username
 
     def register_result(self):
         result = self.element_is_visible(Locators.RESULT)
 
-        time.sleep(5)
 
         return result.text
