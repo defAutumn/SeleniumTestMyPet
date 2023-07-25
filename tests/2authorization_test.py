@@ -1,4 +1,6 @@
 from pages.authorization_page import AuthorizationPage
+
+
 class TestAuthorizationPage:
 
     def test_authorization(self, driver):

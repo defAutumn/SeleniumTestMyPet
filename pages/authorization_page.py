@@ -1,7 +1,6 @@
 from pages.base_page import BasePage
 from locators.authorization_page_locators import AuthorizationPageLocators as Locators
-from selenium.webdriver.common.keys import Keys
-import input_data
+from input_data.input_data import Data
 import time
 
 
@@ -9,8 +8,8 @@ class AuthorizationPage(BasePage):
 
     def fill_fields_and_submit(self):
 
-        username = input_data.username
-        password = input_data.password
+        username = Data.username
+        password = Data.password
 
         time.sleep(2)
 
@@ -22,7 +21,7 @@ class AuthorizationPage(BasePage):
 
         return username
 
-
     def authorization_result(self):
         result = self.element_is_visible(Locators.RESULT)
+
         return result.text
